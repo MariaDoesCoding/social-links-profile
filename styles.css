@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  margin: 5rem auto;
+  padding: 2.5rem;
+  height: 110dvh;
+  width: 75%;
+  max-width: 28rem;
+  border-radius: 0.85rem;
+}
+
+.profile-container {
+  overflow: hidden;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.sub-title {
+  color: hsl(75, 94%, 57%);
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.job {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 1.5rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 1.05rem;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 0.8rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
